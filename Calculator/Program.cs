@@ -11,6 +11,7 @@ namespace ConsoleApp1 // Note: actual namespace depends on the project name.
             Console.Write("Enter another number: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(num1 + num2);
+            Main();
         }
     }
 }
